@@ -1,0 +1,161 @@
+<html style="--maincolor:#ffffff; --textcolor:#444444; --hover:#7101fa;">
+    <head>
+      <script src="https://kit.fontawesome.com/e9afae18da.js" crossorigin="anonymous"></script>
+       <title>James Hou</title>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" href="main.css">
+       <link rel="stylesheet" href="home.css">
+       <link rel="stylesheet" href="font.css">
+       <link rel="stylesheet" href="fontawesome.css">
+
+       <script src="main.js"></script>
+       <style type="text/css">
+         ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover, .dropbtn {
+    background-color: #111;
+}
+
+.dropdown {
+    display: inline-block;
+    min-width:160px;
+    font-size:12pt;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width:100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+    font-size:12pt;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.thumbnail {
+  float:left;
+  width:110px;
+  height:90px;
+  margin:5px;
+}
+
+table, td, th
+{
+	border:1px solid green;
+}
+th
+{
+	background-color:green;
+	color:white;
+}
+
+
+p {
+  line-height: 140%;
+  width: 60%;
+  margin: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+table {
+  margin: auto;
+}
+
+       </style>
+    </head>
+
+<!-- the real website code -->
+
+    <body rw4gci="true" data-new-gr-c-s-check-loaded="14.1065.0" data-gr-ext-installed="">
+       <div class="page">
+        <ul>
+          <li><a class="active" href="personal.html">about me</a></li> <!-- 个人自我介绍 -->
+          <div class="dropdown">
+           <a href="#" class="dropbtn">photos</a>
+           <div class="dropdown-content">
+             <a href="milestones.html">milestones</a>
+             <a href="travel.html">travel</a>
+           </div>
+          </div>
+           <div class="dropdown">
+             <a href="#" class="dropbtn">contact</a>
+             <div class="dropdown-content">
+               <a href="email.html">email</a>
+               <a href="mobile.html">mobile</a>
+               <a href="https://www.linkedin.com/in/james-hou-68841a206/">LinkedIn</a>
+               <a href="https://www.github.com/JamesHou225">github</a>
+               <a href="chat.html">chat</a>
+             </div>
+            </div>
+        </ul>
+          <div class="content center">
+             <p class="smoltext" id="introduction">Hello, the name's</p>
+             <h1 id="name">JAMES HOU</h1>
+             <nav id="hnav">
+                <a class="link" href="personal.html"> <i class="fas fa-id-badge"></i> self-introduction </a>
+                <a class="link" href="/files/resume.pdf" target="_blank"> <i class="fas fa-file-alt"></i> résumé</a>
+                <a class="link" href="https://www.github.com/JamesHou225" target="_blank"> <i class="fab fa-github"></i> github</a>
+                
+             </nav>
+
+          </div>
+          <div class="content bottom" onclick="scrollDown(1)">
+             <p class="smoltext">More Info</p>
+             <i class="fas fa-chevron-down"></i>
+          </div>
+       </div>
+       <div class="rule"></div>
+       <div class="page" id="links">
+          <div class="content top">
+             <i class="fas fa-chevron-up" onclick="scrollDown(-1)"></i>
+          </div>
+          <div class="content center">
+             <h1 class="bigh1" id="links">Personal Projects</h1>
+             <nav>
+                <p class="link"><a href="https://">Robot Operator</a></p>
+                <br>
+             </nav>
+          </div>
+          <div class="content bottom">
+              <p id="madewithlove">made with <i class="fas fa-heart"></i></p>
+          </div>
+       </div>
+       <script src="/script/madewithlove.js"></script>
+       <div id="torrent-scanner-popup" style="display: none;"></div>
+    </body>
+ </html>
